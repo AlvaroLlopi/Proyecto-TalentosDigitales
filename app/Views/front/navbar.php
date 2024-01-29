@@ -7,7 +7,7 @@ $perfil = $session->get('perfil_id');
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container"> <!-- Agregamos un contenedor para centrar el contenido -->
 
-        <a class="navbar-brand" href="<?php echo base_url('inicio')?>">
+        <a class="navbar-brand" href="<?php echo base_url('Inicio')?>">
             <img src="<?php echo base_url('assets/img/icono.png')?>" alt="marca" width="75" height="30" class="img-fluid">
         </a>
 
@@ -23,10 +23,13 @@ $perfil = $session->get('perfil_id');
                         <a href="<?php echo base_url('/panel')?>">ADMIN: <?php echo $nombre;?></a>
                     </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="registro" id="registro">Registrarse</a>
+                        <a class="nav-link" href="<?php echo base_url('usuarioListado')?>" id="usuarioListado">Listado de Usuarios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login" id="login">Login</a>
+                        <a class="nav-link" href=<?php echo base_url('productoListado')?> id="productoListado">Listado de Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=<?php echo base_url('registro')?> id="registro">Registrarse</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('/logout');?>" id="salir">Cerrar Sesión</a>
@@ -36,29 +39,35 @@ $perfil = $session->get('perfil_id');
                         <a href="<?php echo base_url('/panel')?>">CLIENTE: <?php echo $nombre;?></a>
                     </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="inicio" id="enlace">Inicio</a>
+                        <a class="nav-link" href="<?php echo base_url('Inicio')?>" id="enlace">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="quienes_somos" id="enlace">Quiénes Somos</a>
+                        <a class="nav-link" href="<?php echo base_url('quienes_somos')?>" id="enlace">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="acerca_de" id="enlace">Acerca de</a>
+                        <a class="nav-link" href="<?php echo base_url('acerca_de')?>" id="enlace">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('catalogo')?>" id="enlace">Catálogo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('/logout');?>" id="salir">Cerrar Sesión</a>
                     </li>
                 <?php else: ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="inicio" id="enlace">Inicio</a>
+                        <a class="nav-link" href="<?php echo base_url('Inicio')?>" id="enlace">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="quienes_somos" id="enlace">Quiénes Somos</a>
+                        <a class="nav-link" href="<?php echo base_url('quienes_somos')?>" id="enlace">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="acerca_de" id="enlace">Acerca de</a>
+                        <a class="nav-link" href="<?php echo base_url('acerca_de')?>" id="enlace">Acerca de</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="catalogo" id="enlace">Catálogo</a>
+                        <a class="nav-link" href="<?php echo base_url('catalogo')?>" id="enlace">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=<?php echo base_url('registro')?> id="registro">Registrarse</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login">Login</a>

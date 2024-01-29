@@ -1,0 +1,55 @@
+CRITICAL - 2023-11-02 21:54:16 --> Array to string conversion
+in APPPATH\Views\Back\usuario\usuario_listado.php on line 36.
+ 1 APPPATH\Views\Back\usuario\usuario_listado.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('back/usuario/usuario_listado', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(57): view('back/usuario/usuario_listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario_controller->ListadoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 21:57:01 --> Array to string conversion
+in APPPATH\Views\Back\usuario\usuario_listado.php on line 36.
+ 1 APPPATH\Views\Back\usuario\usuario_listado.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('back/usuario/usuario_listado', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(57): view('back/usuario/usuario_listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario_controller->ListadoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 21:57:05 --> Array to string conversion
+in APPPATH\Views\Back\usuario\usuario_listado.php on line 36.
+ 1 APPPATH\Views\Back\usuario\usuario_listado.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('back/usuario/usuario_listado', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(57): view('back/usuario/usuario_listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario_controller->ListadoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 21:58:53 --> Array to string conversion
+in APPPATH\Views\Back\usuario\usuario_listado.php on line 37.
+ 1 APPPATH\Views\Back\usuario\usuario_listado.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('back/usuario/usuario_listado', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(57): view('back/usuario/usuario_listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario_controller->ListadoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 22:35:37 --> Undefined variable $usuario
+in APPPATH\Views\Back\usuario\usuario_listado.php on line 25.
+ 1 APPPATH\Views\Back\usuario\usuario_listado.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\Back\\usuario\\usuario_listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('back/usuario/usuario_listado', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(57): view('back/usuario/usuario_listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario_controller->ListadoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

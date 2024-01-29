@@ -27,7 +27,7 @@
                     <label class="form-label" for="contraseña">Contraseña</label>
                   </div>
                   <input type="submit" value="Ingresar" class="btn btn-success">
-                  <a href="<?php echo base_url('inicio'); ?>" class="btn btn-danger">Cancelar</a>
+                  <a href="<?php echo base_url('Inicio'); ?>" class="btn btn-danger">Cancelar</a>
                 </div>
                 <div>
                   <p class="mb-0">No tienes una cuenta? <a href="<?php echo base_url('/registro'); ?>"
